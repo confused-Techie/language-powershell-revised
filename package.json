@@ -1,0 +1,14 @@
+{
+  "name": "language-powershell-revised",
+  "version": "0.0.0",
+  "description": "Updated, revised PowerShell Syntax Highlighting Support in Pulsar.",
+  "keywords": [
+  ],
+  "repository": "https://github.com/confused-Techie/language-powershell-revised",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

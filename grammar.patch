@@ -1,0 +1,27 @@
+diff --git a/./grammars/powershell.tmLanguage.json b/../language-powershell-revised/grammars/powershell.json
+index 4286eed..5e5bd4e 100644
+--- a/./grammars/powershell.tmLanguage.json
++++ b/../language-powershell-revised/grammars/powershell.json
+@@ -1,10 +1,9 @@
+ {
+-	"information_for_contributors": [
+-		"This file has been converted from source and may not be in line with the official build.",
+-		"The current master branch for this syntax can be found here: https://github.com/PowerShell/EditorSyntax",
+-		"If you want to provide a fix or improvement, please create a pull request against the original repository."
+-	],
+-	"version": "c0372a1d2df136ca6b3d1a9f7b85031dedf117f9",
++  "fileTypes": [
++    "ps1",
++    "psm1",
++    "psd1"
++  ],
+ 	"name": "PowerShell",
+ 	"scopeName": "source.powershell",
+ 	"patterns": [
+@@ -1026,4 +1025,4 @@
+ 			]
+ 		}
+ 	}
+-}
+\ No newline at end of file
++}
